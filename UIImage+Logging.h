@@ -1,5 +1,5 @@
 //
-//  UIImageLogger.h
+//  UIImage+Logging.h
 //
 //  Created by Justinas Rumševičius on 16-10-14.
 //
@@ -7,8 +7,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface UIImageLogger : NSObject
+@interface UIImage (Logging)
 
-+ (void)logUIImage:(UIImage *)image;
+- (void)logImage;
 
 @end
